@@ -64,8 +64,8 @@ GEM
       rack-test (~> 0.6.1)
       thor (>= 0.15.2, < 2.0)
       tilt (~> 1.4.1)
-    middleman-deploy (0.1.4)
-      middleman-core (>= 3.0.0)
+    middleman-deploy (1.0.0)
+      middleman-core (>= 3.2)
       net-sftp
       ptools
     middleman-livereload (3.1.1)
@@ -130,7 +130,7 @@ DEPENDENCIES
   builder (~> 3.0)
   middleman (~> 3.2.2)
   middleman-blog (~> 3.5.1)
-  middleman-deploy (~> 0.1.4)
+  middleman-deploy (~> 1.0)
   middleman-livereload (~> 3.1.0)
   middleman-target (~> 0.0.6)
   nokogiri (~> 1.6.1)

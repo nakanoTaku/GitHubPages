@@ -169,10 +169,10 @@ end
 ###
 
 # ftp deployment configuration.
-# activate :deploy do |deploy|
-#   deploy.method = :ftp
+activate :deploy do |deploy|
+  deploy.method = :git
 #   deploy.host = "ftp-host"
 #   deploy.user = "ftp-user"
 #   deploy.password = "ftp-password"
 #   deploy.path = "ftp-path"
-# end
+end
