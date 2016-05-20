@@ -6,3 +6,9 @@
 body {
   margin-top: $marginTopBody;
 }
+
+// header
+.site-title a {
+  color: #333;
+  font-family: Oswald, Arial, Helvetica, sans-serif;
+}
